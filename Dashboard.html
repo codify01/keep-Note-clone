@@ -5,70 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
- <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-    <nav class="headnav">
-        <div class="logo_items flex">
-            <span class="menu" id="menu">
-            <button class="border-0 bg-transparent text-light"><i class="bi bi-list" class="rounded-5 border-5 m-5 justify-content-center" id="checking">
-            </i></button>
-            </span>
-            <span class="nav_image">
-                <img src="budgtblu.jpg" alt="log_img">
-            </span>
-            <span class="logo_name">Keep</span>
-            <button class="border-0 text-light ms-5 d-none d-md-none d-lg-block bg-transparent" style="position: relative; left: 70px;"><i class="bi bi-search"></i></button>
-            <input class="form-control rounded-1 d-none d-md-none d-lg-block mx-auto justify-content-around border-0 shadow-none" type="search" placeholder="search" style="width: 60%; height: 50px; background-color: #525254;">
-            <div class="flex justify-content-around gap-4 me-5 mx-auto">
-                <button class="border-0 text-light ms-5 d-block d-lg-none bg-transparent"><i class="bi bi-search"></i></button>
-                  <div class="flex justify-content-between gap-3">
-                    <span class="d-none d-md-none d-lg-block"><i class="fa-solid fa-rotate-right" style="color: #ffffff;"></i></span>
-                    <span><i class="bi bi-grid"></i></span>
-                    <span><i class="bi bi-gear"></i></span>
-                  </div>
-                  <div class="flex justify-content-between gap-3">
-                    <span><i class="bi bi-grid-3x3-gap"></i></span>
-                    <span>D</span>
-                  </div>            
+    <header>
+        <nav class="headnav">
+            <div class="logo_items flex">
+                <span class="menu" id="menu">
+                <button class="border-0 bg-transparent text-light"><i class="bi bi-list" class="rounded-5 border-5 m-5 justify-content-center" id="checking">
+                </i></button>
+                </span>
+                <span class="nav_image">
+                    <img src="budgtblu.jpg" alt="log_img">
+                </span>
+                <span class="logo_name">My Journal</span>
+                <button class="border-0 text-light ms-5 d-none d-md-none d-lg-block bg-transparent" style="position: relative; left: 70px;"><i class="bi bi-search"></i></button>
+                <input class="form-control rounded-1 d-none d-md-none d-lg-block mx-auto justify-content-around border-0 shadow-none" type="search" placeholder="search" style="width: 60%; height: 50px; background-color: #525254;">
+                <div class="flex justify-content-around gap-4 me-5 mx-auto">
+                    <button class="border-0 text-light ms-5 d-block d-lg-none bg-transparent"><i class="bi bi-search"></i></button>
+                      <div class="flex justify-content-between gap-3">
+                        <span class="d-none d-md-none d-lg-block"><i class="fa-solid fa-rotate-right" style="color: #ffffff;"></i></span>
+                        <span><i class="bi bi-grid"></i></span>
+                        <span><i class="bi bi-gear"></i></span>
+                      </div>
+                      <div class="flex justify-content-between gap-3">
+                        <span><i class="bi bi-grid-3x3-gap"></i></span>
+                        <span>D</span>
+                      </div>            
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main class="d-flex">
+        <div class="sidebar" id="side">
+            <ul>
+                <li class="active">
+                    <a href="#" class="flex">
+                        <i class="bi bi-lightbulb"></i>
+                        <span class="nav-item">Overview</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex">
+                        <i class="bi bi-bell"></i>
+                        <span class="nav-item">Notification</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex">
+                        <i class="bi bi-pencil"></i>
+                        <span class="nav-item">Edit</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex">
+                        <i class="bi bi-archive"></i>
+                        <span class="nav-item">Archive</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="flex">
+                        <i class="bi bi-trash3"></i>
+                        <span class="nav-item">Trash</span>
+                    </a>
+                </li>
+            </ul>
         </div>
+        <div>
+            <span class="text-light">jbsgjdhsjd</span>
+            <span class="text-light">jbsgjdhsjd</span>
+            <span class="text-light">jbsgjdhsjd</span>
+            <span class="text-light">jbsgjdhsjd</span>
+            <span class="text-light">jbsgjdhsjd</span>
+            <span class="text-light">jbsgjdhsjd</span>
+            <span class="text-light">jbsgjdhsjd</span>
+            <span class="text-light">jbsgjdhsjd</span>
+            <span class="text-light">jbsgjdhsjd</span>
         </div>
-    </nav>
-    <nav class="sidebar" id="side">
-                <ul>
-                    <li class="active">
-                        <a href="#" class="flex">
-                            <i class="bi bi-lightbulb"></i>
-                            <span class="nav-item">Overview</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="flex">
-                            <i class="bi bi-bell"></i>
-                            <span class="nav-item">Notification</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="flex">
-                            <i class="bi bi-pencil"></i>
-                            <span class="nav-item">Edit</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="flex">
-                            <i class="bi bi-archive"></i>
-                            <span class="nav-item">Archive</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" class="flex">
-                            <i class="bi bi-trash3"></i>
-                            <span class="nav-item">Trash</span>
-                        </a>
-                    </li>
-                </ul>
-    </nav>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
